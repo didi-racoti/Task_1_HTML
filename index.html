@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UET COMPANY</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mystyle.css">
+        <style>
+            body{ background-color: red;}
+            /* setari pentru primul titlu */
+            #titlu1{
+                color: green;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50px;
+                text-align: left;
+            }
+            /* setari pentru primul paragraf */
+
+            #pgf1{
+                color: yellow;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 5vh;
+                text-align: right;
+            }
+            /* setari pentru al doilea titlu */
+            #titlu2{
+                color: black;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50%;
+                text-align: center;
+            }
+            /*setari pentru al doilea paragraf*/
+            #pgf2{
+                color: yellow;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 3vw;
+                text-align: justify;
+            }
+            .winnie{
+                background-color: #ff3399;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titlu1">Despre Organizatie &#128509;</h1>
+        <script>
+            function myFunction(){
+                document.getElementById("titlu1").style.backgroundColor="orange";
+            }
+            function yourFunction(){
+                document.getElementById("titlu2").style.fontSize="100px";
+            }
+            function ourFunction(){
+                document.getElementById("pgf2").style.textAlign="right";
+            }
+        </script>
+        <button type="button" onclick="myFunction()">Apasa aici!</button>
+        <p id="pgf1" class="para">Din pasiunea noastră pentru <strong>domeniul informatic</strong> și în special pentru <b>dezvoltarea website-urilor</b> ne punem “Toată pasiunea și seriozitatea pentru proiecte de success”.</p>
+        <a href="http://uetcompany.ro/" target="_blank">Link catre site</a>
+        <hr>
+        <h3 id="titlu2">Misiunea noastra</h3>
+        <button type="button" onclick="yourFunction()">Apasa aici</button>
+        <!-- citat scris in italic -->
+        <p id="pgf2" class="para"><i>“Ancorandu-ne mintea în seriozitate și având dorința de a ne dezvolta cunoștințele în programare și noi ca oameni, asigurăm dezvoltarea unui program informatic bine gândit și structurat."</i></p>
+        <button type="button" onclick="ourFunction()">Apasa aici</button>
+        <div class="winnie para">
+            <p><span class="lista">The Winnie-the-Pooh stories</span> are set in Ashdown Forest, East Sussex, England. The forest is an area of tranquil open heathland on the highest sandy ridges of the High Weald Area of Outstanding Natural Beauty situated 30 miles (50 km) south-east of London.</p>
+            <p>Many locations in the stories can be associated with real places in and around the forest. As Christopher Milne wrote in his autobiography: "Pooh’s forest and Ashdown Forest are identical."</p>
+            <p>In the Milne books, Pooh is naive and slow-witted, but he is also friendly, thoughtful, and steadfast. Although he and his friends agree that he is "a bear of very little brain", Pooh is occasionally acknowledged to have a clever idea, usually driven by common sense.</p>
+            <p>Pooh is very fond of food, particularly honey (which he spells "hunny"), but also condensed milk and other items. When he visits friends, his desire to be offered a snack is in conflict with the impoliteness of asking too directly.</p>
+            <p>Pooh is very social. After Christopher Robin, his closest friend is Piglet, and he most often chooses to spend his time with one or both of them. But he also habitually visits the other animals, often looking for a snack or an audience for his poetry as much as for companionship.</p>
+        </div>
+        <img src="foto1.jpg" alt="Winnie-the-Pooh" width="20%" height="auto">
+        <p>&#128151;</p>
+        <table>
+            <tr>
+                <th>Fructe</th>
+                <th>Ciocolata</th>
+                <th>Inghetata</th>
+                <th>Culori</th>
+                <th>Flori</th>
+            </tr>
+            <tr>
+                <td>Mere</td>
+                <td>Milka</td>
+                <td>Vanilie</td>
+                <td>Verde</td>
+                <td>Trandafir</td>
+            </tr>
+            <tr>
+                <td>Pere</td>
+                <td>Heidi</td>
+                <td>Fistic</td>
+                <td>Mov</td>
+                <td>Crin</td>
+            </tr>
+            <tr>
+                <td>Cirese</td>
+                <td>Laura</td>
+                <td>Bubblegum</td>
+                <td>Roz</td>
+                <td>Lalea</td>
+            </tr>
+            <tr>
+                <td>Piersici</td>
+                <td>Poiana</td>
+                <td>Capsuni</td>
+                <td>Galben</td>
+                <td>Crizantema</td>
+            </tr>
+        </table>
+        <div class="lista">
+            <h5>Lista de cumparaturi</h5>
+            <ul>
+                <li>Lapte</li>
+                <li>Oua</li>
+                <li>Paine</li>
+            </ul>
+        </div>
+        <div class="medalii">
+            <h5>Medalii</h5>
+            <ol>
+                <li>Aur</li>
+                <li>Argint</li>
+                <li>Bronz</li>
+            </ol>
+        </div>
+        
+    </body>
+</html>

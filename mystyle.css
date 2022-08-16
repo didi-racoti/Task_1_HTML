@@ -1,0 +1,39 @@
+.para{
+    padding: 10px;
+}
+a:link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    background-color: greenyellow;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: white;
+    text-decoration: underline;
+}
+a:active{
+    color: orange;
+    background-color: white;
+    text-decoration: none;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+td:hover {
+    background-color: green;
+}
+.lista{
+    background-color: gold;
+}
+.medalii{
+    background-color: blueviolet;
+    border-style: dotted;
+}
